@@ -1,0 +1,30 @@
+body {
+  background-color: #1a1208;
+  color: #f5efe2;
+  font-family: 'Playfair Display', serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+p {
+  text-align: center;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  max-width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 3rem;
+  border-bottom: 1px solid rgba(245, 239, 226, 0.2);
+}
