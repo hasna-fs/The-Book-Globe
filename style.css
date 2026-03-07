@@ -49,13 +49,14 @@ nav ul a {
   text-transform: uppercase;
 }
 
-nav > a {
-  font-size: 1.1rem;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
+.nav-logo {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
 }
 
 .hero {
   text-align: center;
   padding: 6rem 2rem;
 }
+
