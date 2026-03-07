@@ -13,7 +13,7 @@ h1 {
   margin-bottom: 1.5rem;
 }
 
-p {
+.hero p {
   text-align: center;
   font-size: 1.1rem;
   margin-top: 1rem;
@@ -78,3 +78,60 @@ nav ul a {
   color: #f5efe2;
   border: 1px solid #f5efe2;
 }
+
+
+.quotes {
+  padding: 5rem 3rem;
+  text-align: center;
+}
+
+.quotes h2 {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.quotes-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+
+.card {
+  background-color: rgba(245, 239, 226, 0.05);
+  border: 1px solid rgba(245, 239, 226, 0.15);
+  padding: 2rem;
+  text-align: left;
+  transition: all 0.3s ease;
+}
+
+.quote-text {
+  font-size: 1.1rem;
+  font-style: italic;
+  line-height: 1.7;
+  margin-bottom: 1.2rem;
+}
+
+.book {
+  font-size: 0.85rem;
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+}
+
+.author {
+  font-size: 0.8rem;
+  opacity: 0.6;
+  margin-bottom: 0.8rem;
+}
+
+.country {
+  font-size: 0.8rem;
+  opacity: 0.5;
+}
+
+.card:hover {
+  background-color: rgba(245, 239, 226, 0.1);
+  transform: translateY(-4px);
+  transition: all 0.3s ease;
+}
+
