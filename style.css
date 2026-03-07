@@ -60,3 +60,21 @@ nav ul a {
   padding: 6rem 2rem;
 }
 
+.btn {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 0.9rem 2.5rem;
+  background-color: #f5efe2;
+  color: #1a1208;
+  text-decoration: none;
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #1a1208;
+  color: #f5efe2;
+  border: 1px solid #f5efe2;
+}
